@@ -108,7 +108,7 @@ nav {
     color: #FFFFFF8C;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 .wlc-input {
@@ -170,6 +170,127 @@ nav {
     transform: translateY(-50%) scale(0.98);
 }
 
+/* most popular page */
+
+.most-popular {
+    background-color: #283036;
+    margin-top: -3.5px;
+}
+.pp {
+    display: flex;
+    flex-direction: column;
+}
+.pop-bt {
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.pop-st {
+    color: #FFFFFF8C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.popular-cards {
+    margin-top: 70px;
+}
+
+.cards-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 30px;
+}
+
+.card-desc {
+    display: flex;
+    align-items: center;
+}
+
+.name-order {
+    margin-left: 30px;
+}
+
+.name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFFC7;
+    font-size: 20px;
+}
+
+.order {
+    font-family: 'Poppins', sans-serif;
+    color: #FFA5378C;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.card-text {
+    color: #FFFFFF8C;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+
+
+.card-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.like-share img {
+    margin-right: 10px;
+    width: 25px;
+}
+
+.btn-visit {
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF8C;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.card:hover .btn-visit {
+    background-color: #FF6E30;
+    border-radius: 10px;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.card:hover .btn-visit:hover {
+    background-color: white;
+    color: #242c32;
+}
+
+.card:hover {
+    transform: translateY(-13px);
+    transition: 0.5s;
+    background-color: #242c32;
+    background: linear-gradient(50deg, #242c32 95%, green 5%);
+    border-radius: 10px;
+}
+
+.like-share img:hover {
+    cursor: pointer;
+}
 
 
 body {
