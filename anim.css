@@ -1,5 +1,5 @@
 .levitation {
-    animation: welcome 1s infinite alternate-reverse;
+    animation: welcome 2s infinite alternate-reverse;
 }
 
 @keyframes welcome {
