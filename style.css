@@ -176,10 +176,12 @@ nav {
     background-color: #283036;
     margin-top: -3.5px;
 }
+
 .pp {
     display: flex;
     flex-direction: column;
 }
+
 .pop-bt {
     color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -213,7 +215,6 @@ nav {
     margin-right: 50px;
     margin-left: 50px;
     padding: 30px;
-
 }
 
 .card-desc {
@@ -284,7 +285,7 @@ nav {
 .card:hover {
     transform: translateY(-13px);
     transition: 0.5s;
-    background: rgb(36,44,50);
+    background: rgb(36, 44, 50);
     border-radius: 10px;
 }
 
@@ -307,6 +308,7 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 50px;
 }
+
 .popl-btn:hover {
     background-color: #FF6E30;
     color: white;
@@ -318,7 +320,7 @@ nav {
 
 .partners {
     background-color: #1E252B;
-    display: flex;  
+    display: flex;
     justify-content: center;
 }
 
@@ -327,7 +329,9 @@ nav {
     border-radius: 10px;
     padding: 20px;
     margin-top: 50px;
+    margin-bottom: 70px;
 }
+
 .partn-text {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
@@ -335,17 +339,77 @@ nav {
     text-align: center;
     margin-top: 30px;
 }
+
 .partn-list {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
+
 .partn-list img {
     margin-left: 30px;
     margin-right: 30px;
 }
 
+/* newcomer */
+
+.newcomer {
+    background-color: #1E252B;
+}
+.comer-flex {
+    display: flex;
+}
+.comer-text {
+    margin-left: 50px;
+}
+.comer-bt {
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.comer-st {
+    font-size: 18px;
+    color: #FFFFFF8C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.comer-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin-right: 50px;
+}
+.comer-card {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 260px;
+}
+.comer-card:hover .btn-visit {
+    background-color: #FF6E30;
+    border-radius: 10px;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.comer-card:hover .btn-visit:hover {
+    background-color: white;
+    color: #242c32;
+}
+
+.comer-card:hover {
+    transform: translateY(-13px);
+    transition: 0.5s;
+    background: rgb(36, 44, 50);
+    border-radius: 10px;
+}
+
+.like-share img:hover {
+    cursor: pointer;
+}
 
 body {
     margin: 0;

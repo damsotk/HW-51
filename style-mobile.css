@@ -16,6 +16,28 @@
     width: 80vw;
 }
 
+.partn-list {
+    display: flex;
+    justify-content: center;
+}
+.partn {
+    margin-bottom: 20px;
+}
+
+.comer-flex {
+    flex-direction: column;
+}
+.comer-cards {
+    margin-right: 0;
+    justify-content: center;
+    width: 100%;
+}
+.comer-text {
+    text-align: center;
+    justify-content: center;
+    margin-left: 0;
+}
+
 .wlc-input {
     display:none ;
 }
