@@ -5,3 +5,17 @@
 .lines {
     display: block;
 }
+
+.wlc-img {
+    position: relative;
+}
+.wlc-search {
+    position: absolute;
+    text-align: center;
+    z-index: 5;
+    width: 80vw;
+}
+
+.wlc-input {
+    display:none ;
+}

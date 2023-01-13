@@ -1,3 +1,5 @@
+/* navbar */
+
 nav {
     background-color: #1E252B;
     padding: 10px;
@@ -6,15 +8,18 @@ nav {
     align-items: center;
     flex-wrap: wrap;
 }
+
 .nav-btns {
     display: flex;
 }
+
 .btn-nav {
     color: #FFFFFF8C;
     font-family: 'Poppins', sans-serif;
     margin-left: 30px;
     font-size: 14px;
 }
+
 .btn-nav:hover {
     color: white;
     cursor: pointer;
@@ -24,16 +29,19 @@ nav {
     display: flex;
     align-items: center;
 }
+
 .nav-log {
-    margin-right: 30px;
+    margin-right: 10px;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFFC7;
     font-size: 14px;
 }
+
 .nav-log:hover {
     color: white;
     cursor: pointer;
 }
+
 .nav-signup {
     background-color: #FF6E30;
     padding: 10px;
@@ -57,12 +65,111 @@ nav {
     width: 30px;
     display: none;
 }
+
 .lines:hover {
     cursor: pointer;
     border-bottom: 17px double #e9e9e98c;
     border-top: 6px solid #e9e9e98c;
     transition: 1s;
 }
+
+/* welcome page */
+
+.welcome-page {
+    background-color: #1E252B;
+}
+
+.wlc-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wlc-img img {
+    width: 100%;
+    height: auto;
+}
+
+.wlc-search {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.wlcb-text {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+.wlcs-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF8C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-top: 20px; 
+}
+
+.wlc-input {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.input-box {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background: #283036;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-box img,
+.input-box .button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-box img {
+    left: 20px;
+    font-size: 30px;
+    color: #707070;
+}
+
+.input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    padding: 0 155px 0 65px;
+    background-color: transparent;
+}
+
+.input-box .button {
+    right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    background-color: #FF6E30;
+    cursor: pointer;
+}
+
+.input-box .button:active {
+    transform: translateY(-50%) scale(0.98);
+}
+
 
 
 body {

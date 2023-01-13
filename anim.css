@@ -1,0 +1,12 @@
+.levitation {
+    animation: welcome 1s infinite alternate-reverse;
+}
+
+@keyframes welcome {
+    from {
+      transform: translateY(10px);
+    }
+    to {
+      transform: translateY(20px);
+    }
+}
