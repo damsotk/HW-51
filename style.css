@@ -122,7 +122,6 @@ nav {
 .input-box {
     position: relative;
     height: 50px;
-    width: 100%;
     background: #283036;
     margin-top: 20px;
     border-radius: 8px;
@@ -411,6 +410,40 @@ nav {
     cursor: pointer;
 }
 
+/* constributor */
+
+.constributors {
+    background-color: #1E252B;
+}
+.const-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.const-bt {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+}
+.conts-st {
+    font-size: 18px;
+    color: #FFFFFF8C;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.const-button {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
 body {
     margin: 0;
+    overflow-x: hidden;
 }
